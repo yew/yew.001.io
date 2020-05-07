@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="Guosen Wang,hi@001.io"><title>Guosen's Notes</title><meta name="description" content="A Blog Powered By Hexo"><meta name="keywords" content="HTML,CSS,JavaScript,Linux"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/logo.png" type="image/x-icon"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 4.2.0"></head><body><div class="sidebar animated fadeInDown"><div class="logo-title"><div class="title"><img src="/images/logo@2x.png" style="width:127px;"><h3 title=""><a href="/">Guosen's Notes</a></h3><div class="description"><p>Thoughts, stories and ideas.</p></div></div></div><ul class="social-links"><li><a href="https://twitter.com/yitianzhuyue" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a></li><li><a href="https://instagram.com/gsw3721" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a></li><li><a href="http://weibo.com/yitianzhuyue" target="_blank" rel="noopener"><i class="fa fa-weibo"></i></a></li><li><a href="https://facebook.com/yitianzhuyue" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li><li><a href="https://github.com/yew" target="_blank" rel="noopener"><i class="fa fa-github"></i></a></li></ul><div class="footer"><a target="_blank" href="/">Guosen Wang © 2017-2020</a><div class="by_hexo"><a href="https://hexo.io/" target="_blank">Proudly published with Hexo&#65281;</a><a href="https://github.com/Ben02/hexo-theme-Anatole" target="_blank" rel="noopener">Theme modified form anatole.</a></div></div></div><div class="main"><div class="page-top animated fadeInDown"><div class="nav"><li><a class="current" href="/">Home</a></li><li><a href="/categories">Categories</a></li><li><a href="/archives">Archive</a></li><li><a href="/about">About</a></li></div></div><div class="autopagerize_page_element"><div class="content"><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/homebrew%E5%AE%89%E8%A3%85%E6%8C%87%E5%AE%9A%E7%89%88%E6%9C%ACnode/">homebrew安装指定版本node</a></h3></div><div class="post-content"><p>最近在迁移博客到 hexo，执行 hexo server 会有警告，而且 hexo generate 无法生成页面。后来发现是于node 14不兼容的原因，考虑安装低版本node，比如node 12.16.3 LTS版本。
+macOS环境下，使用homebrew安装的node，默认是最高版本，命令如下：
+brew...</p></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-calendar"></i><span class="date">2020-05-07</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/modify-mysql-datadir/">CentOS下修改MySQL datadir的位置无法启动的问题</a></h3></div><div class="post-content"><p>CentOS下MySQL默认安装在/var/lib/mysql目录下，但是随着存储数据的增多，所在的硬盘空间很快被占满，导致无法进行插入、建表等操作。
+这时需要将MySQL数据存储文件夹移植到别的文件夹下，网上有很多教程，如 关于linux-Centos 7下mysql 5.7.9的rpm包的安装方式 是一篇很好...</p></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-calendar"></i><span class="date">2018-05-18</span><i class="fa fa-reorder"></i><a class="tag" href="/categories/Problem/" title="Problem">Problem </a></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/terminal-commands/">常用终端命令</a></h3></div><div class="post-content"><p>
+
+
+序号
+命令
+说明
+
+
+
+1
+Ctrl + U
+从当前光标所在位置向前清除命令
+
+
+2
+Ctrl + K
+从当前光标所在位置向后清除命令
+
+
+3
+Ctrl + H
+BackSpace
+
+
+4
+Ctrl + D
+Delete
+
+
+5
+Ctrl + C
+中断，可用于清除已经输入的命令
+
+
+6
+Ctrl + A
+回...</p></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-calendar"></i><span class="date">2018-03-25</span><i class="fa fa-reorder"></i><a class="tag" href="/categories/Server/" title="Server">Server </a></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="/pip-update-all-packages/">pip更新所有包</a></h3></div><div class="post-content"><p>import pipfrom subprocess import callfor dist in pip.get_installed_distributions():    call("pip install --upgrade " + dist.project_name, shell=True)
+</p></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-calendar"></i><span class="date">2017-11-11</span><i class="fa fa-reorder"></i><a class="tag" href="/categories/Problem/" title="Problem">Problem </a></div></div></div></div><div class="pagination"><ul class="clearfix"></ul></div></div></div></div><script src="/js/jquery.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script></body></html>
