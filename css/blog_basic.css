@@ -73,13 +73,13 @@ figure.highlight table,figure.highlight tr,figure.highlight td {
 
 figure.highlight .gutter pre {
   color: #909090!important;
-  padding: 1.2em 1.4em!important;
+  padding: 1.2em 0 1.2em 1.4em!important;
   line-height: 1.5em!important;
   margin: 0!important;
 }
 
 figure.highlight .code pre {
-  padding: 1.2em 1.4em 1.2em 0!important;
+  padding: 1.2em 1.4em 1.2em 1.4em!important;
   line-height: 1.5em!important;
   margin: 0!important
 }
